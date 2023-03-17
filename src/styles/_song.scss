@@ -1,0 +1,31 @@
+.song-container {
+  background-size: cover;
+  //background-image: url('../assets/images/bg-home.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(131, 87, 43, 0.1); /* Valore RGBA del colore dello sfondo con opacità del 70% */
+  padding: 50px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Valore RGBA dell'ombra del box con opacità del 50% */
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 20%;
+    border-radius: 50%;
+  }
+  h2 {
+    padding: 3rem 1rem 1rem 1rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .song-container {
+    img {
+      width: 50%;
+    }
+  }
+}
