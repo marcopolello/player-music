@@ -1,4 +1,4 @@
-<h1 align="center">Straahl 💿 Player</h1>
+<h1 align="center">Pol 💿 Player</h1>
 
 
 <p align="center">🎵 Your favorite Music Player🎧</p>
