@@ -41,6 +41,7 @@ const Player = ({
       audioRef.current.pause();
       setIsPlaying(!isPlaying);
     } else {
+      console.log(audioRef.current);
       audioRef.current.play();
       setIsPlaying(!isPlaying);
     }

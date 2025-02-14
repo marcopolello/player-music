@@ -1,8 +1,12 @@
 <h1 align="center">Pol 💿 Player</h1>
 
-
 <p align="center">🎵 Your favorite Music Player🎧</p>
 <p align="center">⭐⭐⭐⭐⭐</a></p>
+
+# Start app
+
+- npm install
+- npm run start
 
 <br>
 
