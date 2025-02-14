@@ -1,4 +1,4 @@
-<h1 align="center">Pol 💿 Player</h1>
+<h1 align="center">Straahl 💿 Player</h1>
 
 <p align="center">🎵 Your favorite Music Player🎧</p>
 <p align="center">⭐⭐⭐⭐⭐</a></p>
@@ -14,12 +14,11 @@
 - Developed using ReactJS.
 - Beautiful styling using SASS.
 - Deployed on Vercel.
-- [Live DEMO]()
+- [Live DEMO](https://player-music-omega.vercel.app/)
 
 ## Screenshots :
 
 <br>
 <p align="center">
-  <img  src="">
-  <img  src="">
+  <img  src="/public/playerMusic.png">
 </p>
