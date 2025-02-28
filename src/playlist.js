@@ -2,6 +2,33 @@ import { v4 as uuidv4 } from "uuid";
 function StraahlTrack() {
   return [
     {
+      name: "Rain Pours",
+      cover: "https://i.scdn.co/image/ab67616d00001e0274c1ccbddd9bc5349a6b4d7a",
+      artist: "Straahl",
+      audio: "/audio/RainPours.mp3",
+      color: ["#2A416D", "#E98087"],
+      id: uuidv4(),
+      active: true,
+    },
+    {
+      name: "Robotik",
+      cover: "https://i.scdn.co/image/ab67616d0000b273c2865e5cb72fb6928d5c1c6f",
+      artist: "Straahl",
+      audio: "/audio/Robotik.mp3",
+      color: ["#CD607D", "#c94043"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Estremo - Sogno Feat. Fluente (Straahl Remix)",
+      cover: "https://i1.sndcdn.com/artworks-C00DCzibVbjsjmDJ-bjqZiA-t500x500.jpg",
+      artist: "Estremo - Sogno Feat. Fluente (Straahl Remix)",
+      audio: "/audio/Estremo.mp3",
+      color: ["#2A416D", "#E98087"],
+      id: uuidv4(),
+      active: true,
+    },
+    {
       name: "Ancient live",
       cover:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC_XEbIMj9ACgvtajediCCoSKRqGAWf0r9qw&s",
@@ -32,15 +59,6 @@ function StraahlTrack() {
       active: false,
     },
     {
-      name: "Robotik",
-      cover: "https://i.scdn.co/image/ab67616d0000b273c2865e5cb72fb6928d5c1c6f",
-      artist: "Straahl",
-      audio: "/audio/Robotik.mp3",
-      color: ["#CD607D", "#c94043"],
-      id: uuidv4(),
-      active: false,
-    },
-    {
       name: "Alex Sanderson",
       cover: "https://i.scdn.co/image/ab67616d0000b2737936c4f8fb9ed60a6a9931ee",
       artist: "Straahl",
@@ -52,7 +70,7 @@ function StraahlTrack() {
     {
       name: "Floating Fear",
       cover: "https://i.scdn.co/image/ab67616d0000b2737936c4f8fb9ed60a6a9931ee",
-      artist: "Misha, Jussi Halme",
+      artist: "Straahl",
       audio: "/audio/FloatingFear.mp3",
       color: ["#2A416D", "#E98087"],
       id: uuidv4(),
@@ -75,7 +93,7 @@ function StraahlTrack() {
       audio: "/audio/CryintheDark.mp3",
       color: ["#BD3D76", "#551853"],
       id: uuidv4(),
-      active: true,
+      active: false,
     },
     {
       name: "Onziker",
