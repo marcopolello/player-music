@@ -26,7 +26,7 @@ function StraahlTrack() {
       audio: "/audio/Estremo.mp3",
       color: ["#2A416D", "#E98087"],
       id: uuidv4(),
-      active: true,
+      active: false,
     },
     {
       name: "Ancient live",
